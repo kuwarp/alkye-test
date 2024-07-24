@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+@font-face {
+  font-family: 'Söhne Test';
+  src: url('./asset/Fonts/Test\ web\ fonts\ \(WOFF2\)/soehne-test-regular.woff2') format('woff2'),
+       url('./asset/Fonts/Test\ web\ fonts\ \(WOFF2\)/soehne-test-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Söhne Test', sans-serif;
+}
+  /* src/styles.css */
